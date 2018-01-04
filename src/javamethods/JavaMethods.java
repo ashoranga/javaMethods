@@ -20,7 +20,19 @@ public class JavaMethods {
         p1.printPatientDetails();
         System.out.println("BMI is " + p1.getBmi());
         p1.printBmi();
+        
+        
+        Bill b1 = new Bill();
+        b1.no = 01;
+        b1.name = "Anchor";
+        b1.rate = 375.00;
+        b1.qty = 4;
+        b1.printBillDetails();
+        
+                
+        
 
     }
+    
 
 }
